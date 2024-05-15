@@ -1,0 +1,158 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Quicksand', sans-serif;
+}
+.navBar{
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+}
+.name{
+    position: relative;
+    left: 30px;
+    padding: 10px;
+}
+
+.navItems{
+    display: flex;
+    position: absolute;
+    right: 30px;
+}
+
+.item{
+    margin-left: 20px;
+
+}
+.heading{
+    padding: 0 30%;
+}
+.heading-para{
+    padding: 0 30%;
+    font-family: 'Quicksand', sans-serif;
+}
+.mika{
+    display: flex;
+    padding: 0 30%;
+    border-top: 1px solid black;
+}
+.img{
+    border-radius: 50%;
+    overflow: hidden;
+    
+}
+.f{
+    font-size: 25px;
+    padding: 5px 25px;
+    border: 2px groove;
+    position: absolute;
+    right: 20px;
+}
+.t{
+    font-size: 25px;
+    padding: 5px 25px;
+    border: 2px groove;
+    position: absolute;
+    right: 95px;
+}
+.para{
+    padding: 0 30%;
+}
+.bhoot{
+    padding: 0 20%;
+}
+.share{
+    padding: 0 30%;
+    display: inline;
+}
+
+.mika2{
+    display: flex;
+    border-top: 1px dotted black;
+    padding: 20px;
+}
+.image2{
+    border-radius: 50%;
+    padding: 10px;
+}
+hr{
+    height: 2px;
+    background-color: black;
+}
+.read-next{
+    text-align: center;
+}
+.read1{
+    display: flex;
+    justify-content: center;
+ 
+}
+figure{
+    width: 304px;
+    margin: 5px 10px;
+}
+figcaption{
+    padding: 10px 50px;
+    text-align: center;
+}
+.newsletter{
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px 40px 0px;
+    margin: 100px 430px;
+}
+.sign{
+    border: 1px solid black;
+    display: inline-block;
+}
+.signup{
+    background-color: black;
+    border: none;
+    color: aliceblue;
+    height: 30px;
+}
+.email{
+    border: none;
+    padding: 5px;
+    height: 30px;
+    padding: 0px;
+}
+.footer{
+    background-color: black;
+    color: aliceblue;
+}
+.footer-list{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.footer-list-item{
+    padding-left: 60px;
+}
+.ending{
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid black;
+    padding: 10px 40px 0px;
+    margin: 10px 430px;
+
+}
+.links{
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+}
+.link{
+    padding-left: 10px;
+
+}
+footer{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    margin: 0px;
+}
